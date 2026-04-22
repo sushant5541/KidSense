@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFB71A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5A517;
+}
+
+/* ===== Animation Observers ===== */
+.animate-on-scroll {
+  opacity: 0;
+  transition: all 0.8s ease-out;
+}
+.animate-on-scroll.visible {
+  opacity: 1;
+}
+.animate-on-scroll.slide-up {
+  transform: translateY(40px);
+}
+.animate-on-scroll.slide-up.visible {
+  transform: translateY(0);
+}
+.animate-on-scroll.slide-left {
+  transform: translateX(-40px);
+}
+.animate-on-scroll.slide-left.visible {
+  transform: translateX(0);
+}
+.animate-on-scroll.slide-right {
+  transform: translateX(40px);
+}
+.animate-on-scroll.slide-right.visible {
+  transform: translateX(0);
+}
+
+/* ===== Hero Video Overlay ===== */
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(27, 58, 92, 0.85) 0%, rgba(27, 58, 92, 0.6) 100%);
+}
+
+/* ===== Button Styles ===== */
+.btn-gold {
+  @apply bg-ks-gold text-white font-semibold px-8 py-3 rounded-full 
+         transition-all duration-300 hover:bg-ks-gold-dark hover:shadow-lg 
+         hover:shadow-ks-gold/30 hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.btn-navy {
+  @apply bg-ks-navy text-white font-semibold px-8 py-3 rounded-full 
+         transition-all duration-300 hover:bg-ks-navy-dark hover:shadow-lg 
+         hover:shadow-ks-navy/30 hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.btn-outline-gold {
+  @apply border-2 border-ks-gold text-ks-gold font-semibold px-8 py-3 rounded-full 
+         transition-all duration-300 hover:bg-ks-gold hover:text-white 
+         hover:shadow-lg hover:shadow-ks-gold/30 hover:-translate-y-0.5;
+}
+
+.btn-outline-white {
+  @apply border-2 border-white text-white font-semibold px-8 py-3 rounded-full 
+         transition-all duration-300 hover:bg-white hover:text-ks-navy 
+         hover:shadow-lg hover:-translate-y-0.5;
+}
+
+/* ===== Dropdown Menu ===== */
+.nav-dropdown {
+  @apply absolute top-full left-0 bg-white shadow-xl rounded-lg py-2 min-w-[220px]
+         opacity-0 invisible translate-y-2 transition-all duration-300 z-50;
+}
+.nav-item:hover > .nav-dropdown {
+  @apply opacity-100 visible translate-y-0;
+}
+
+/* ===== Card Hover Effects ===== */
+.service-card {
+  @apply bg-white rounded-2xl p-8 text-center transition-all duration-500
+         hover:shadow-2xl hover:-translate-y-2;
+}
+.service-card:hover .service-icon {
+  @apply scale-110;
+}
+
+/* ===== Section Heading ===== */
+.section-heading {
+  @apply text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-ks-navy;
+}
+
+/* ===== Gradient Text ===== */
+.gradient-text {
+  background: linear-gradient(135deg, #FFB71A 0%, #FF8C00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+/* ===== Interactive Navbar & Animations ===== */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.glass-header {
+  @apply bg-white/80 backdrop-blur-md border-b border-white/20;
+}
+
+.shimmer-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-border::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 183, 26, 0.2),
+    rgba(255, 183, 26, 0.8),
+    rgba(255, 183, 26, 0.2),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite linear;
+}
+
+.nav-link-glow {
+  @apply relative overflow-hidden;
+}
+
+.nav-link-glow::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-full h-0.5 bg-ks-gold scale-x-0 transition-transform duration-300 origin-right;
+}
+
+.nav-link-glow:hover::after {
+  @apply scale-x-100 origin-left;
+}
