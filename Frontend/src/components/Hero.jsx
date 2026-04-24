@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8 animate-fade-in-down">
             <span className="w-2 h-2 bg-ks-gold rounded-full animate-pulse" />
-            <span className="text-white/90 text-sm font-medium">NDIS Registered Provider</span>
+             <span className="text-white/90 text-sm font-medium">Expert Pediatric Care</span>
           </div>
 
           {/* KidSense brand */}
@@ -45,7 +45,7 @@ export default function Hero() {
 
           {/* Subtext */}
           <p className="text-white/80 text-lg sm:text-xl mb-10 max-w-lg leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Helping children reach their full potential through expert therapy across Adelaide.
+            Helping children reach their full potential through expert therapy across Bengaluru.
           </p>
 
           {/* CTAs */}
@@ -53,21 +53,21 @@ export default function Hero() {
             <a href="#contact" className="btn-gold text-center text-lg">
               Book an Appointment
             </a>
-            <a href="tel:1800543736" className="btn-outline-white text-center text-lg">
-              📞 1800 543 736
+            <a href="tel:+918041234567" className="btn-outline-white text-center text-lg">
+              📞 +91 80 4123 4567
             </a>
           </div>
 
-          {/* NDIS Badge */}
+          {/* Support Badge */}
           <div className="mt-12 flex items-center gap-4 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl px-5 py-3 border border-white/10">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                  <span className="font-heading font-bold text-ks-navy text-xs">NDIS</span>
+                  <span className="font-heading font-bold text-ks-navy text-[10px] text-center">Quality<br/>First</span>
                 </div>
                 <div>
-                  <p className="text-white font-semibold text-sm">NDIS Registered</p>
-                  <p className="text-white/60 text-xs">Provider of Choice</p>
+                  <p className="text-white font-semibold text-sm">Certified Center</p>
+                  <p className="text-white/60 text-xs">Standard of Excellence</p>
                 </div>
               </div>
             </div>

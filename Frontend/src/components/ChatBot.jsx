@@ -65,7 +65,7 @@ export default function ChatBot() {
           ...prev,
           {
             role: 'assistant',
-            content: "I'm sorry, I'm having trouble right now. Please try again or call us at **1800 543 736**.",
+            content: "I'm sorry, I'm having trouble right now. Please try again or call us at **+91 80 4123 4567**.",
           },
         ])
       }
@@ -74,7 +74,7 @@ export default function ChatBot() {
         ...prev,
         {
           role: 'assistant',
-          content: "Oops! I can't connect to the server right now. Please make sure the backend is running, or contact us directly at **1800 543 736**.",
+          content: "Oops! I can't connect to the server right now. Please make sure the backend is running, or contact us directly at **+91 80 4123 4567**.",
         },
       ])
     } finally {
@@ -309,7 +309,7 @@ export default function ChatBot() {
                 '📋 Services',
                 '📍 Clinics',
                 '📅 Book',
-                '🌈 NDIS',
+                '🌈 Support',
                 '📊 Milestones',
               ].map((q) => (
                 <button

@@ -17,8 +17,8 @@ export default function OurTeam() {
       name: "Joanna Buttfield",
       role: "Executive Director",
       image: "https://childdevelopment.com.au/wp-content/uploads/2025/07/Featured-Image.png",
-      bio: "Joanna Buttfield is the Founder & Executive Director of Kid Sense Child Development. Joanna founded Kid Sense in 1998 after returning to South Australia in 1997 following specialist training in the USA. She recognised the unmet need for developmental services that focused on 'helping children overcome life's little challenges in movement, play and learning'. As a result of Joanna's vision, the lives of thousands of South Australians have been positively impacted – many for life.",
-      more: "Joanna aims to lead a team of confident therapists who can continue to make positive changes in the lives of children and young people across South Australia. Joanna's entrepreneurial efforts have been publicly recognised: Kid Sense was awarded 2017 Telstra Small Business of South Australia Award and the 2018 Telstra Small and Succeeding Business of South Australia Award. Joanna was also a finalist in the 2017 Telstra Business Women's Awards for South Australia."
+      bio: "Joanna Buttfield is the Founder & Executive Director of Kid Sense Child Development. Joanna founded Kid Sense in 1998 after returning to Bengaluru in 1997 following specialist training in the USA. She recognised the unmet need for developmental services that focused on 'helping children overcome life's little challenges in movement, play and learning'. As a result of Joanna's vision, the lives of thousands of families in Bengaluru have been positively impacted – many for life.",
+      more: "Joanna aims to lead a team of confident therapists who can continue to make positive changes in the lives of children and young people across Bengaluru. Joanna's entrepreneurial efforts have been publicly recognised: Kid Sense was awarded several Local Small Business Awards for excellence in healthcare and innovation. Joanna remains a leading figure in paediatric therapy in the region."
     },
     {
       name: "Tayla Manuel",
@@ -30,34 +30,34 @@ export default function OurTeam() {
 
   const locationTeams = [
     {
-      name: "West Lakes Team",
+      name: "Whitefield Team",
       image: "https://childdevelopment.com.au/wp-content/uploads/2025/07/Featured-Image-4.png",
-      desc: "Our West Lakes team is made up of passionate therapists who enjoy a great balance of professionalism and fun. We are not just great at what we do—we also know how to make the most of the beautiful surroundings. Whether we are providing top-notch therapy or enjoying a peaceful lunch by the lake, we love serving our clients with real life priorities in mind."
+      desc: "Our Whitefield team is made up of passionate therapists who enjoy a great balance of professionalism and fun. We are not just great at what we do—we also know how to make the most of the vibrant tech-hub surroundings. We love serving our clients with real life priorities in mind."
     },
     {
-      name: "Glenelg Team",
+      name: "Indiranagar Team",
       image: "https://childdevelopment.com.au/wp-content/uploads/2025/07/Featured-Image-5.png",
-      desc: "The Glenelg team is a talented group of therapists with a bit of a sweet spot for ice cream along Jetty Road! But it’s not just about the treats—we are passionate about providing high-quality, professional therapy to every client. As the newest clinic in the group, we’re excited to bring fresh perspectives and exceptional care to the local community."
+      desc: "The Indiranagar team is a talented group of therapists in the heart of Bengaluru! We are passionate about providing high-quality, professional therapy to every client. As one of our most central clinics, we’re excited to bring fresh perspectives and exceptional care to the local community."
     },
     {
-      name: "Golden Grove Team",
+      name: "HSR Layout Team",
       image: "https://childdevelopment.com.au/wp-content/uploads/2025/07/Featured-Image-9.png",
-      desc: "The Golden Grove team is all about community. We are lucky to work with a diverse range of clients throughout the north and north-east areas, and we love being a part of these communities. Whether we are helping a child reach their developmental milestones or supporting someone through a challenge, we are dedicated to making a positive impact."
+      desc: "The HSR Layout team is all about community. We are lucky to work with a diverse range of clients throughout the southern areas of Bengaluru, and we love being a part of these communities. Whether we are helping a child reach their developmental milestones or supporting someone through a challenge, we are dedicated to making a positive impact."
     },
     {
-      name: "Morphett Vale Team",
+      name: "Jayanagar Team",
       image: "https://childdevelopment.com.au/wp-content/uploads/2025/07/Featured-Image-8.png",
-      desc: "Our Morphett Vale team is proud to serve the South, an area that often lacks access to specialized therapy services. We are committed to filling that gap and providing top-tier support to those who need it most. We also know how to keep things light, and take pride in being a trusted resource for families in the area."
+      desc: "Our Jayanagar team is proud to serve the traditional heart of Bengaluru. We are committed to providing top-tier support to those who need it most. We take pride in being a trusted resource for families in the area."
     },
     {
-      name: "Unley Team",
+      name: "Koramangala Team",
       image: "https://childdevelopment.com.au/wp-content/uploads/2025/07/Featured-Image-7.png",
-      desc: "The Unley team is proud to call the original big blue Kid Sense building, home. Working in such an iconic space allows us to continue delivering exceptional therapy for both Speech and Occupational Therapy needs. We take great joy in seeing our clients grow and achieve their goals through creative and engaging sessions."
+      desc: "The Koramangala team is proud to call one of Bengaluru's most dynamic neighborhoods home. Working in such an iconic space allows us to continue delivering exceptional therapy for both Speech and Occupational Therapy needs."
     },
     {
-      name: "Walkerville Team",
+      name: "Malleshwaram Team",
       image: "https://childdevelopment.com.au/wp-content/uploads/2025/07/Featured-Image-6.png",
-      desc: "Convenience meets expertise at the Walkerville team’s location, tucked into the local shops. We love the ease of having everything within reach while providing top-quality therapy services to our clients. Our parents and families thrive in this practical and welcoming environment."
+      desc: "Convenience meets expertise at the Malleshwaram team’s location. We love the ease of serving the northern parts of the city while providing top-quality therapy services to our clients. Our families thrive in this practical and welcoming environment."
     }
   ]
 
@@ -96,7 +96,7 @@ export default function OurTeam() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 animate-on-scroll slide-up">
             <div className="order-2 md:order-1">
               <p className="text-lg text-gray-600 leading-relaxed">
-                Our amazing team of Occupational Therapists and Speech Pathologists are the heart of the exceptional service that we deliver. Delivering care across six Metro Adelaide sites, our team make a difference in children's lives each and every day through providing clinic, community, home and educational setting intervention and support.
+                Our amazing team of Occupational Therapists and Speech Pathologists are the heart of the exceptional service that we deliver. Delivering care across six Bengaluru sites, our team make a difference in children's lives each and every day through providing clinic, community, home and educational setting intervention and support.
               </p>
             </div>
             <div className="order-1 md:order-2">

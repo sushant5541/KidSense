@@ -19,7 +19,7 @@ const topMenuItems = [
       { label: 'Our Vision and Values', path: '/corporate' },
     ]
   },
-  { label: 'NDIS Services', path: '/ndis-services' },
+  { label: 'Support Services', path: '/support-services' },
   { label: 'Careers', path: '/careers',
     children: [
       { label: 'Careers at Kid Sense', path: '/careers' },
@@ -73,12 +73,12 @@ const mainMenuItems = [
   {
     label: 'Locations', path: '/locations',
     children: [
-      { label: 'Unley', path: '/locations/unley' },
-      { label: 'Morphett Vale', path: '/locations/morphett-vale' },
-      { label: 'Walkerville', path: '/locations/walkerville' },
-      { label: 'Golden Grove', path: '/locations/golden-grove' },
-      { label: 'West Lakes', path: '/locations/west-lakes' },
-      { label: 'Glenelg', path: '/locations/glenelg' },
+      { label: 'Indiranagar', path: '/locations/indiranagar' },
+      { label: 'Koramangala', path: '/locations/koramangala' },
+      { label: 'Jayanagar', path: '/locations/jayanagar' },
+      { label: 'HSR Layout', path: '/locations/hsr-layout' },
+      { label: 'Whitefield', path: '/locations/whitefield' },
+      { label: 'Malleshwaram', path: '/locations/malleshwaram' },
     ]
   },
   {
@@ -163,7 +163,7 @@ export default function Header() {
             ))}
           </nav>
           <a 
-            href="tel:1800543736" 
+            href="tel:+918041234567" 
             className="flex items-center gap-2 text-[11px] text-ks-gold hover:text-white transition-colors h-full px-2"
           >
             <PhoneIcon />
@@ -187,7 +187,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:1800543736" className="text-ks-gold hover:text-ks-gold-dark transition-colors">
+            <a href="tel:+918041234567" className="text-ks-gold hover:text-ks-gold-dark transition-colors">
               <PhoneIcon />
             </a>
             <Link to="/new-enquiry" className="btn-gold text-sm !px-6 !py-2.5 whitespace-nowrap">
@@ -222,8 +222,8 @@ export default function Header() {
             <Link to="/new-enquiry" className="btn-gold block text-center text-sm">
               Book an Appointment
             </Link>
-            <a href="tel:1800543736" className="mt-3 btn-outline-gold block text-center text-sm">
-              📞 1800 543 736
+            <a href="tel:+918041234567" className="mt-3 btn-outline-gold block text-center text-sm">
+              📞 +91 80 4123 4567
             </a>
           </div>
         </div>

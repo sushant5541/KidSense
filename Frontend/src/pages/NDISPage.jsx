@@ -6,18 +6,18 @@ export default function NDISPage() {
 
   const supports = [
     {
-      title: "Self-Managed",
-      desc: "You have total control over your funds and service providers. We provide invoices for you to claim through the NDIS portal.",
+      title: "Private Pay",
+      desc: "Direct payment for sessions. We provide detailed receipts for your records and potential tax benefits.",
       icon: "🙋‍♂️"
     },
     {
-      title: "Plan-Managed",
-      desc: "A Plan Manager handles your funding. We work directly with them to ensure your invoices are paid promptly.",
+      title: "Insurance / Corporate",
+      desc: "We work with various health insurance providers and corporate employee benefit programs.",
       icon: "💼"
     },
     {
-      title: "NDIA-Managed",
-      desc: "The NDIA manages your funding. We (as a registered provider) claim directly from the NDIS portal for services provided.",
+      title: "Scholarships",
+      desc: "Through our foundation partners, we offer limited scholarships for families in need of financial assistance.",
       icon: "🏛️"
     }
   ]
@@ -33,13 +33,13 @@ export default function NDISPage() {
                 Support & Funding
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-bold mb-6">
-                NDIS <span className="text-ks-gold">Services</span>
+                Support <span className="text-ks-gold">Services</span>
               </h1>
               <p className="text-xl text-gray-400 mb-10 max-w-xl leading-relaxed">
-                As a registered NDIS provider, we help families navigate the scheme to get the best outcomes for their children.
+                We help families navigate various support schemes and insurance options to get the best outcomes for their children.
               </p>
               <div className="flex flex-col sm:flex-row gap-6">
-                <Link to="/contact-us" className="btn-gold !px-12">New NDIS Enquiry</Link>
+                <Link to="/contact-us" className="btn-gold !px-12">New Enquiry</Link>
                 <a href="#funding-types" className="text-white hover:text-ks-gold flex items-center gap-2 font-bold transition-colors">
                   Management Types 
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@ export default function NDISPage() {
               </div>
             </div>
             <div className="animate-on-scroll slide-right grayscale opacity-30">
-               <img src="https://childdevelopment.com.au/wp-content/uploads/2022/10/kidsense-blue.svg" alt="NDIS Support" className="w-[80%] mx-auto" />
+               <img src="https://childdevelopment.com.au/wp-content/uploads/2022/10/kidsense-blue.svg" alt="Support Services" className="w-[80%] mx-auto" />
             </div>
           </div>
         </div>
@@ -58,11 +58,11 @@ export default function NDISPage() {
       {/* Intro */}
       <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center animate-on-scroll slide-up">
-            <h2 className="section-heading mb-8 underline decoration-ks-gold decoration-4 underline-offset-8">What is the NDIS?</h2>
+            <h2 className="section-heading mb-8 underline decoration-ks-gold decoration-4 underline-offset-8">How we support you?</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              The National Disability Insurance Scheme (NDIS) is Australia’s first national scheme for people with disability. 
-              It provides funding directly to individuals so they can access the supports and services they need to live 
-              an ordinary life. At Kid Sense, we have been helping families navigate the NDIS since its inception.
+              At Kid Sense, we are committed to providing world-class therapy services to the children of Bengaluru. 
+              Whether you are paying privately, through insurance, or through specific government schemes like Niramaya, 
+              we help you navigate the process to ensure your child receives the care they deserve.
             </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function NDISPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16 animate-on-scroll slide-up">
             <h2 className="section-heading mb-4">Funding Management Types</h2>
-            <p className="text-gray-500">How you choose to manage your NDIS plan affects how you interact with us.</p>
+            <p className="text-gray-500">How you choose to manage your funding affects how you interact with us.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {supports.map((s, i) => (
@@ -95,7 +95,7 @@ export default function NDISPage() {
             <div className="animate-on-scroll slide-left">
               <h2 className="text-4xl font-heading font-bold mb-8">Early Childhood Intervention</h2>
               <p className="text-xl font-medium mb-8 leading-relaxed">
-                For children under 9 years of age, the NDIS provides early intervention support through the Early Childhood Approach.
+                For children under 9 years of age, we provide specialized early intervention support through our dedicated programs.
               </p>
               <div className="space-y-6">
                 <p className="text-ks-navy/80">
@@ -106,7 +106,7 @@ export default function NDISPage() {
                 <div className="bg-white/30 p-8 rounded-3xl border border-white/20">
                    <p className="font-bold flex items-center gap-3">
                       <span className="text-2xl">✨</span> 
-                      Our clinicians specialize in Early Childhood support and are experienced in writing NDIS Progress Reports for plan reviews.
+                      Our clinicians specialize in Early Childhood support and are experienced in writing developmental progress reports for school and medical reviews.
                    </p>
                 </div>
               </div>
@@ -121,14 +121,14 @@ export default function NDISPage() {
       {/* Call to Action */}
       <section className="py-24 bg-white overflow-hidden">
         <div className="max-w-5xl mx-auto px-4 text-center animate-on-scroll slide-up">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-ks-navy mb-10">Have questions about your NDIS plan?</h2>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-ks-navy mb-10">Have questions about support options?</h2>
           <p className="text-xl text-gray-500 mb-12">
-            Our friendly NDIS Coordinator can help you understand how to use your funding for Occupational and Speech Therapy.
+            Our friendly support coordinator can help you understand how to use your insurance or private funds for Occupational and Speech Therapy.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
-            <Link to="/contact-us" className="btn-navy !px-16 !py-5 text-xl">Email our NDIS Team</Link>
-            <a href="tel:0882727522" className="text-2xl font-heading font-bold text-ks-navy border-b-4 border-ks-gold pb-2 hover:text-ks-gold transition-colors">
-              Call 08 8272 7522
+            <Link to="/contact-us" className="btn-navy !px-16 !py-5 text-xl">Email our Team</Link>
+            <a href="tel:+918041234567" className="text-2xl font-heading font-bold text-ks-navy border-b-4 border-ks-gold pb-2 hover:text-ks-gold transition-colors">
+              Call +91 80 4123 4567
             </a>
           </div>
         </div>

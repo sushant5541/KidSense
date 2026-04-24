@@ -56,7 +56,7 @@ export default function CorporatePage() {
             <div className="animate-on-scroll slide-right border-l-4 border-ks-navy pl-8">
               <h2 className="text-3xl font-heading font-bold text-ks-navy mb-4">Our Vision</h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                To be the leading provider of child-centered therapy in Australia, recognized for our commitment to families, our innovative approach, and nuestro passionate team.
+                To be the leading provider of child-centered therapy in India, recognized for our commitment to families, our innovative approach, and our passionate team.
               </p>
             </div>
           </div>
@@ -94,15 +94,15 @@ export default function CorporatePage() {
               <div className="space-y-4">
                 <div className="flex gap-4">
                   <div className="w-6 h-6 bg-ks-gold rounded-full flex-shrink-0 mt-1"></div>
-                  <p className="text-gray-300">All staff hold current Working With Children Checks (WWCC).</p>
+                  <p className="text-gray-300">All staff undergo rigorous background checks and police verification.</p>
                 </div>
                 <div className="flex gap-4">
                   <div className="w-6 h-6 bg-ks-gold rounded-full flex-shrink-0 mt-1"></div>
-                  <p className="text-gray-300">Regular training in child protection and mandated reporting.</p>
+                  <p className="text-gray-300">Regular training in child protection and ethical conduct.</p>
                 </div>
                 <div className="flex gap-4">
                   <div className="w-6 h-6 bg-ks-gold rounded-full flex-shrink-0 mt-1"></div>
-                  <p className="text-gray-300">Strict adherence to the National Child Safe Standards.</p>
+                  <p className="text-gray-300">Strict adherence to POSH and Child Protection Guidelines.</p>
                 </div>
               </div>
             </div>

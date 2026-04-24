@@ -65,7 +65,7 @@ export default function About() {
                   educator-focused supports (including workshops, developing screening, and In-Education services to educational settings).
                 </p>
                 <p>
-                  We are now one of Adelaide’s longest-standing private providers of paediatric 
+                  We are now one of Bengaluru’s longest-standing private providers of paediatric 
                   <span className="text-ks-gold font-semibold"> Occupational Therapy</span> and 
                   <span className="text-ks-gold font-semibold"> Speech Therapy</span>, with a team of 40+ experienced therapists 
                   across six metropolitan clinics and the surrounding community.
@@ -151,8 +151,8 @@ export default function About() {
             how can we improve the child’s daily life, not what therapy can we offer?
           </h2>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-            <a href="tel:1800543736" className="btn-navy w-full sm:w-auto">
-              1800 543 736
+            <a href="tel:+918041234567" className="btn-navy w-full sm:w-auto">
+              +91 80 4123 4567
             </a>
             <Link to="/contact-us" className="bg-white text-ks-navy text-center font-bold px-10 py-3 rounded-full hover:bg-gray-100 transition-colors shadow-lg w-full sm:w-auto">
               Book Now

@@ -69,8 +69,8 @@ export default function Careers() {
     },
     {
       title: "Chat to Us",
-      subtitle: "Call our Clinical Director for a confidential discussion on 08 8272 7522",
-      path: "tel:0882727522",
+      subtitle: "Call our Clinical Director for a confidential discussion on +91 80 4123 4567",
+      path: "tel:+918041234567",
       icon: "Chat"
     },
     {
@@ -89,7 +89,7 @@ export default function Careers() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll slide-left">
               <img 
-                src="https://childdevelopment.com.au/wp-content/uploads/2022/10/kidsense-blue.svg" 
+                src="https://kidsense.in/wp-content/uploads/2022/10/kidsense-blue.svg" 
                 alt="KidSense Logo" 
                 className="w-48 mb-6 mx-auto lg:mx-0"
               />
@@ -261,7 +261,7 @@ export default function Careers() {
             <Link to="/careers/positions-vacant" className="btn-navy w-full sm:w-auto">
               View Current Vacancies
             </Link>
-            <a href="tel:0882727522" className="bg-white text-ks-navy font-bold px-10 py-3 rounded-full hover:bg-gray-100 transition-colors shadow-lg w-full sm:w-auto">
+            <a href="tel:+918041234567" className="bg-white text-ks-navy font-bold px-10 py-3 rounded-full hover:bg-gray-100 transition-colors shadow-lg w-full sm:w-auto">
               Call Clinical Director
             </a>
           </div>

@@ -9,7 +9,7 @@ const features = [
     ),
     title: 'Six Convenient',
     subtitle: 'Locations',
-    description: 'Clinics across Adelaide',
+    description: 'Clinics across Bengaluru',
   },
   {
     icon: (

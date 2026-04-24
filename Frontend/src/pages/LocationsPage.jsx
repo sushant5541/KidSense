@@ -59,7 +59,7 @@ export default function LocationsPage() {
               Our <span className="text-ks-gold">Locations</span>
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Conveniently located across metropolitan Adelaide to provide accessible therapy for your family.
+              Conveniently located across Bengaluru to provide accessible therapy for your family.
             </p>
           </div>
         </div>

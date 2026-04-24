@@ -68,7 +68,7 @@ export default function Footer() {
                 { label: 'Careers', path: '/careers' },
                 { label: 'Resources', path: '/resources' },
                 { label: 'Your Concerns', path: '/areas-of-concern' },
-                { label: 'NDIS Services', path: '/ndis-services' }
+                { label: 'Support Services', path: '/support-services' }
               ].map((item) => (
                 <li key={item.label}>
                   <Link to={item.path} className="text-white/60 text-sm hover:text-ks-gold transition-colors flex items-center gap-2">
@@ -84,7 +84,7 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-bold text-lg mb-6">Contact Us</h4>
             <div className="space-y-4">
-              <a href="tel:1800543736" className="flex items-start gap-3 group">
+              <a href="tel:+918041234567" className="flex items-start gap-3 group">
                 <div className="w-10 h-10 rounded-xl bg-ks-gold/10 flex items-center justify-center flex-shrink-0 group-hover:bg-ks-gold/20 transition-colors">
                   <svg className="w-5 h-5 text-ks-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -92,11 +92,11 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-white/40 text-xs">Phone</p>
-                  <p className="text-white font-semibold group-hover:text-ks-gold transition-colors">1800 543 736</p>
+                  <p className="text-white font-semibold group-hover:text-ks-gold transition-colors">+91 80 4123 4567</p>
                 </div>
               </a>
 
-              <a href="mailto:kidsense@childdevelopment.com.au" className="flex items-start gap-3 group">
+              <a href="mailto:contact@kidsense.in" className="flex items-start gap-3 group">
                 <div className="w-10 h-10 rounded-xl bg-ks-gold/10 flex items-center justify-center flex-shrink-0 group-hover:bg-ks-gold/20 transition-colors">
                   <svg className="w-5 h-5 text-ks-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -104,7 +104,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-white/40 text-xs">Email</p>
-                  <p className="text-white text-sm font-semibold group-hover:text-ks-gold transition-colors break-all">kidsense@childdevelopment.com.au</p>
+                  <p className="text-white text-sm font-semibold group-hover:text-ks-gold transition-colors break-all">contact@kidsense.in</p>
                 </div>
               </a>
 
@@ -133,7 +133,7 @@ export default function Footer() {
           <div className="flex gap-6">
             <a href="#" className="text-white/40 text-sm hover:text-white/70 transition-colors">Privacy Policy</a>
             <a href="#" className="text-white/40 text-sm hover:text-white/70 transition-colors">Terms of Service</a>
-            <a href="#" className="text-white/40 text-sm hover:text-white/70 transition-colors">NDIS Provider</a>
+            <a href="#" className="text-white/40 text-sm hover:text-white/70 transition-colors">Quality Assurance</a>
           </div>
         </div>
       </div>

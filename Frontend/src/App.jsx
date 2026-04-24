@@ -57,7 +57,7 @@ function App() {
             
             <Route path="/locations" element={<LocationsPage />} />
             <Route path="/locations/:subpage" element={<ComingSoon />} />
-            <Route path="/ndis-services" element={<NDISPage />} />
+            <Route path="/support-services" element={<NDISPage />} />
             <Route path="/new-enquiry" element={<Contact />} />
             
             <Route path="/auth" element={<AuthPage />} />

@@ -2,33 +2,33 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const locations = [
   {
-    name: 'Unley',
-    address: '271 Unley Rd, Malvern SA 5061',
+    name: 'Indiranagar',
+    address: '100 Feet Rd, Indiranagar, Bengaluru, Karnataka 560038',
     color: 'from-blue-500 to-ks-navy',
   },
   {
-    name: 'Morphett Vale',
-    address: '4/156 Main South Rd, Morphett Vale SA 5162',
+    name: 'Koramangala',
+    address: '80 Feet Rd, 4th Block, Koramangala, Bengaluru, Karnataka 560034',
     color: 'from-ks-gold to-orange-500',
   },
   {
-    name: 'Walkerville',
-    address: '2/74 Walkerville Tce, Walkerville SA 5081',
+    name: 'Jayanagar',
+    address: '9th Main Rd, 4th Block, Jayanagar, Bengaluru, Karnataka 560011',
     color: 'from-emerald-500 to-teal-600',
   },
   {
-    name: 'Golden Grove',
-    address: 'The Grove Shopping Centre, Golden Grove SA 5125',
+    name: 'HSR Layout',
+    address: '27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102',
     color: 'from-purple-500 to-indigo-600',
   },
   {
-    name: 'West Lakes',
-    address: 'West Lakes Mall, West Lakes SA 5021',
+    name: 'Whitefield',
+    address: 'ITPL Main Rd, Whitefield, Bengaluru, Karnataka 560066',
     color: 'from-pink-500 to-rose-600',
   },
   {
-    name: 'Glenelg',
-    address: '2 Moseley St, Glenelg SA 5045',
+    name: 'Malleshwaram',
+    address: 'Sampige Rd, Malleshwaram, Bengaluru, Karnataka 560003',
     color: 'from-cyan-500 to-blue-600',
   },
 ]
@@ -44,7 +44,7 @@ export default function Locations() {
             Our <span className="gradient-text">Locations</span>
           </h3>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-            Six convenient locations across Adelaide to serve you better
+            Six convenient locations across Bengaluru to serve you better
           </p>
         </div>
 
