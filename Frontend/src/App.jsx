@@ -18,6 +18,9 @@ import ResourcesPage from './pages/ResourcesPage'
 import ComingSoon from './pages/ComingSoon'
 import ScrollToTop from './components/ScrollToTop'
 import ChatBot from './components/ChatBot'
+import AuthPage from './pages/AuthPage'
+import QuizPage from './pages/QuizPage'
+import GrowthTrackerPage from './pages/GrowthTrackerPage'
 
 function App() {
   return (
@@ -56,6 +59,10 @@ function App() {
             <Route path="/locations/:subpage" element={<ComingSoon />} />
             <Route path="/ndis-services" element={<NDISPage />} />
             <Route path="/new-enquiry" element={<Contact />} />
+            
+            <Route path="/auth" element={<AuthPage />} />
+            <Route path="/quiz" element={<QuizPage />} />
+            <Route path="/growth-tracker" element={<GrowthTrackerPage />} />
 
             {/* Default 404 behavior */}
             <Route path="*" element={<ComingSoon />} />

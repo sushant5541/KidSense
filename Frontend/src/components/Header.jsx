@@ -81,6 +81,14 @@ const mainMenuItems = [
       { label: 'Glenelg', path: '/locations/glenelg' },
     ]
   },
+  {
+    label: 'Parent Tools', path: '#',
+    children: [
+      { label: 'Interactive Quiz', path: '/quiz' },
+      { label: 'Growth Tracker', path: '/growth-tracker' },
+      { label: 'Login / Register', path: '/auth' },
+    ]
+  },
 ]
 
 function DropdownMenu({ items }) {

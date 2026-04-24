@@ -2,11 +2,22 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
+import mongoose from 'mongoose';
 import config from './config/index.js';
 import chatbotRoutes from './routes/chatbot.js';
+import authRoutes from './routes/auth.js';
+import childRoutes from './routes/children.js';
+import quizRoutes from './routes/quizzes.js';
+import growthRoutes from './routes/growth.js';
 import errorHandler from './middleware/errorHandler.js';
 
 const app = express();
+
+// ─── Database Connection ─────────────────────────────────
+mongoose
+  .connect(config.mongoUri)
+  .then(() => console.log('✅ Connected to MongoDB'))
+  .catch((err) => console.error('❌ MongoDB connection error:', err));
 
 // ─── Security ────────────────────────────────────────────
 app.use(helmet());
@@ -41,6 +52,10 @@ app.get('/api/health', (req, res) => {
 });
 
 app.use('/api/chatbot', chatLimiter, chatbotRoutes);
+app.use('/api/auth', authRoutes);
+app.use('/api/children', childRoutes);
+app.use('/api/quizzes', quizRoutes);
+app.use('/api/growth', growthRoutes);
 
 // ─── Error Handler ───────────────────────────────────────
 app.use(errorHandler);
