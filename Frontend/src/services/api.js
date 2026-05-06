@@ -44,6 +44,10 @@ export const growthAPI = {
   addRecord: (data) => api.post('/growth', data),
 };
 
+export const chatAPI = {
+  sendMessage: (data) => api.post('/chat', data),
+};
+
 export default api;
 
 // End of API service configuration
