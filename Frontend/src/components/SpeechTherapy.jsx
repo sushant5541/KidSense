@@ -34,8 +34,7 @@ export default function SpeechTherapy() {
                   <span className="text-gray-700 font-medium">{item}</span>
                 </div>
               ))}
-            </div>
-            
+            </div> 
             <a href="#" className="btn-navy inline-block">
               Learn More
             </a>
